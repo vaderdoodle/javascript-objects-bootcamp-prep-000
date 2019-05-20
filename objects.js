@@ -1,3 +1,3 @@
 var playlist = {
-  Backstreet Boys: '';
+  Sugar Ray: 'Fly'
 }
