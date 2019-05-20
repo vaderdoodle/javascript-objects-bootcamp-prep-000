@@ -2,12 +2,12 @@ var playlist = {
   SugarRay: 'Fly'
 };
 
-function updatePlaylist (object, artistName, songTitle) {
-  object[artistName] = songTitle;
-  return object;
+function updatePlaylist (playlist, artistName, songTitle) {
+  playlist[artistName] = songTitle;
+  return playlist;
 }
 
-function removeFromPlaylist (object, artistName) {
-  delete object.artistName;
-  return object;
+function removeFromPlaylist (playlist, artistName) {
+  delete playlist.artistName;
+  return playlist;
 }
